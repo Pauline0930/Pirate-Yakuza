@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html> 
+    <link rel="stylesheet" href="styles.css">
+<form>
+<fieldset>
+ <legend>Customer Information</legend>
+  <label>
+  Name:
+  <input type="text" id="username" name="username" required>
+ </label>
+ <br>
+ <label>
+  Mobile Number:
+  <input type="tel" id="mobile number" name="mobile number" pattern="09[0-9]{9}" maxlength="11" placeholder="09XXXXXXXXX" required>
+ </label>
+ <br>
+ <label>
+  Email Address:
+  <input type="email" id="email address" name="email address" placeholder="example@gmail.com"required>
+ </label> 
+</fieldset>
+ 
+</br>
+
+<fieldset>
+ <legend>Design your ship, the Goromarou!</legend>
+ <label>
+  Number of crewmates (1-10)
+  <input type="number(1-10)" id="number of crewmates" name="number of crewmates">
+ <br>
+ <form>
+ <label>
+  Cannons - Blast your enemies away!
+  <br>
+  <label> 
+   <input type="radio" id="status" name="cannons" checked value="normal cannons">
+   Normal Cannons
+  </label>
+  <br>
+  <label>
+   <input type="radio" id="status" name="cannons" value="laser cannons">
+   Laser Cannons
+  </label>
+  <br>
+  <label>
+   <input type="radio" id="status" name="cannons" value="ethereal cannons">
+   Ethereal Cannons
+  </label>
+  <br>
+  <label>
+   <input type="radio" id="status" name="cannons" value="shark cannons">
+   Shark Cannons
+  </label>
+  <br>
+ </label>
+ <body>
+ <label>
+  Machine Guns - Shoot down those pirates!
+ <br>
+  <label>
+   <input type="radio" name="machinegun" checked value="machine gun">
+   Machine Gun
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="machinegun" value="ethereal machine gun">
+   Ethereal Machine Gun
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="machinegun" value="frozen machine gun">
+   Frozen Machine Gun
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="machinegun" value="golden machine gun">
+   Golden Machine Gun
+  </label>
+  <br>
+ <label>
+  The Captain's Rocket Launcher - Let the captain deal with them!
+ <br>
+  <label>
+   <input type="radio" name="launcher" checked value="rocket launcher">
+   Rocket Launcher
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="launcher" value="squid rocket launcher">
+   Squid Rocket Launcher
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="launcher" value="toxic rocket launcher">
+   Toxic Rocket Launcher
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="launcher" value="golden rocket launcher">
+   Golden Rocket Launcher
+  </label>
+  </br>
+ <label>
+  Design for the Hull
+ </label>
+ <br>
+  <label>
+   <input type="radio" name="hull" checked value="Default">
+   Default
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="hull" value="Dragon">
+   Dragon
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="hull" value="Hannya">
+   Hannya
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="hull" value="Dragonfish">
+   Dragonfish
+  </label>
+  <br>
+ <label>
+  Design for the Sails
+ </label>
+ <br>
+  <label>
+   <input type="radio" name="sails" checked value= "Default">
+   Default
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="sails" value="Majima">
+   Majima
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="sails" value="Kiryu">
+   Kiryu
+  </label>
+  <br>
+  <label>
+   <input type="radio" name="sails" value="Dojima">
+   Dojima
+  </label>
+  <br>
+ <label>
+  Other Designs
+ </label>
+ <br>
+  <label>
+   <input type="checkbox" name="designs" value="treasure map">
+   Treasure Map
+  </label>
+  <br>
+  <label>
+   <input type="checkbox" name="designs" value="sharkhead">
+   Sharkhead
+  </label>
+  <br>
+  <label>
+   <input type="checkbox" name="designs" value="karaoke player">
+   Karaoke Player
+  </label>
+  <br>
+  <label>
+   <input type="checkbox" name="designs" value="sofa">
+   Sofa
+  </label>
+  <br>
+  <label>
+   Ship Size
+   <select name="size">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+    <option value="extra large">Extra Large</option>
+   </select>
+   <br>
+</fieldset>
+<br>
+<fieldset>
+ <legend>Delivery Details</legend>
+  <label>
+  <br>
+  Delivery Address
+  <br>
+  <textarea rows="10" cols="50">Honolulu, Hawaii...</textarea>
+ <br>
+  <label>
+Preffered delivery date
+   <input type="date" name="bday" required>
+  </label>
+  <br>
+  <label>
+   Preferred delivery time
+   <input type="time" id= "delivery-time" name="delivery time" min="8:00" max="20:00" required>
+ 
+</fieldset>
+ <button type="submit">Submit</button>
+ <button type="reset">Reset</button>
+  </label>
+</form>
